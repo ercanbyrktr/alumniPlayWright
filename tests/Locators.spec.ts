@@ -21,9 +21,9 @@ test('Üye Kayıt İşlemi', async({page})=>{
 
     // await page.locator("[id='lastName']").fill('Yiğit)
     
-    await page.fill('#signupemail',"mb@babayigit.net")
-    await page.fill('#signuppassword','Mb97167&')
-    await page.fill('#comfirmPassword','Mb97167&')
+    await page.fill('#signupemail',"xy@xyz111.net")
+    await page.fill('#signuppassword','111111')
+    await page.fill('#comfirmPassword','111111')
     //await page.click('#btn-submit-form') // id ile alırken #
 }
 

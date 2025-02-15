@@ -46,7 +46,7 @@ test('DemoQA.com', async({page})=>{
     await expect(page.getByText('Book Store Application')).toHaveText('Book Store Application');
     await expect(page.getByText('Book Store Application')).toHaveText('Book Store Application ');
     await expect(page.getByText('Book Store Application')).toHaveText(' Book Store Application');
-    //await expect(page.getByText('Book Store Application')).toHaveText('book Store Application');
+    //gitawait expect(page.getByText('Book Store Application')).toHaveText('book Store Application');
     //locate edilen yazının verilenle birebir aynı olup olmadığına bakar
     
 
