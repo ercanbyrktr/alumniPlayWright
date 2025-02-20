@@ -62,7 +62,7 @@ test.describe('Form Elements', () => {
             let opt=await each.textContent();
 
             if(opt=='China'){
-                status=false;
+                status=true;
                 break;
             }
         }
