@@ -3,6 +3,7 @@ import{test,expect} from '@playwright/test';
 test('handling test', async({page,context}) => {
 
 await page.goto('https://www.google.com')
+await page.setViewportSize({width:1536,height:738})
 await page.goto('https://www.wisequarter.com')
 
 let title=await page.title();
@@ -14,7 +15,7 @@ await page.goForward();
 
 const page2=await context.newPage();
 await page2.goto('https://www.babayigit.net')
-await page2.setViewportSize({width:1920,height:950})
+await page2.setViewportSize({width:1536,height:738})
 title=await page2.title();
     console.log(`BABAYIGIT Title: ${title}`);
     await page.bringToFront();
